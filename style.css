@@ -1,0 +1,23 @@
+body {
+    background-image: url("brew cafe background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+li {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+h1 {
+    text-align: center;
+    color:white;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+}
