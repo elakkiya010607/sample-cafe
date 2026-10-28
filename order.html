@@ -1,0 +1,37 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Cafe - Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🛒 Place Your Order</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Order</a>
+    </nav>
+
+    <label for="coffee">Select Coffee:</label>
+
+    <select id="coffee">
+        <option value="120">Cappuccino - ₹120</option>
+        <option value="140">Latte - ₹140</option>
+        <option value="100">Espresso - ₹100</option>
+        <option value="150">Cold Coffee - ₹150</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="placeOrder()">Place Order</button>
+
+    <h3 id="result"></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
