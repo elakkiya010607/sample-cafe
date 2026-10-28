@@ -11,3 +11,4 @@ function placeOrder() {
         "Your Order: " + coffeeName +
         "\nTotal Price: ₹" + price;
 }
+
